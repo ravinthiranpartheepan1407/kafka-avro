@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "doc": "Room Booking Events",
+    "name": "RoomBooking",
+    "fields": [
+        {"name": "name", "type": "string", "doc": "Customer Name"},
+        {"name": "hotel", "type": "string", "doc": "Hotel Name"},
+        {"name": "durationOfStay", "type": "int", "doc": "Duration of Stay"},
+        {"name": "fromDate", "type": "string", "doc": "Booking Start Date"},
+        {"name": "toDate", "type": "string", "doc": "Booking to Date"}
+    ]
+}

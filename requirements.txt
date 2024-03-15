@@ -1,0 +1,4 @@
+avro
+kafka-python
+kafka
+flask
